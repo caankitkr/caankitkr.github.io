@@ -594,7 +594,7 @@ Header Style
   .header-area {
     background-color: transparent;
     padding: 0px 15px;
-    height: 80px;
+    height: 80px !important;
     box-shadow: none;
     text-align: center;
   }
@@ -770,6 +770,11 @@ Banner Style
 .main-banner .owl-nav .owl-next i:hover {
   opacity: 1;
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+.whatsapp{
+  height: 30px;
+  width: 30px !important;
 }
 
 @keyframes slideInFromLeft {
